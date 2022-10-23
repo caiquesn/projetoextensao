@@ -8,31 +8,91 @@
     <link rel="shortcut icon" href="img/android-chrome-192x192.png" type="image/x-icon">
 </head>
 <style>
-    h1{text-align: center;}
 
+    * {
+    margin: 0px;
+    padding: 0px;
+    }
+
+    body {
+    height: 100vh;
+    width: 100vw;
+    }
+
+    header {
+    position: relative;
+    background-color: rgb(42, 42, 255);
+    min-height: 50px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .logos {
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .logos img {
+        
+        width: 40px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 400);
+        box-sizing: border-box;
+    }
+
+    .main {
+        text-align: center;
+        width: 100vw;
+    }
+
+    footer {
+    background-color: rgb(42, 42, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 15px;
+    margin-top: 10px;
+    }
+    
 </style>
 <body style="background-color: rgb(223, 223, 223);">
-    <h1 style="color: rgb(0, 0, 0);" >Cursos</h1>
-    <div style="text-align: center;">
-        <a href="cursoemvideo.html" target="" rel="next"><img width="800" height="180" src="img/cursoemvideo.png.png" alt="Canal Curso em Video"></a>
-    </div>
-    <div style="text-align: center;">
-        <a href="cursorapido.html" target="" rel="next"><img width="800" height="180" src="img/cursorapido.png.png" alt="Canal Curso Rápido"></a>
-    </div>
-    <div style="text-align: center;">
-        <a href="certificado.html" target="" rel="next"><img width="800" height="180" src="img/certiifcado.png.png" alt="Canal Certificado Cursos Online"></a>  
-    </div>
-    <div style="text-align: center;">
-        <a href="aulas.html" target="" rel="next"><img width="800" height="180" src="img/aulasdeinformatica.png.png" alt="Canal Aulas de Informatica"></a>
-    </div>
-    <div style="text-align: center;">
-        <a href="dicionario.html" target="" rel="next"><img width="800" height="180" src="img/dicionari.png.png" alt="Canal Dicionário de Informatica"></a>
-    </div>
-    <div style="text-align: center;">
-        <a href="mateus.html" target=" rel="next"><img width="800" height="180" src="img/mateuscp.png.png" alt="Canal Mateus CP"></a>
+    
+    <header>
+        <h1 style="color: white;">Canais com os Melhores Cursos</h1>
+        <div class="logos">
+            <p style="color: white;">Quer ficar por dentro das melhores dicas? Siga nossas redes sociais!</p>
+            <a href="#"><img src="img/logo-facebook.jpg" alt="Facebook"></a>
+            <a href="#"><img src="img/logo-instagram.jpg" alt="Instagram"></a>
+            <a href="#"><img src="img/logo-twitter.jpg" alt="Twitter"></a><br>
+        </div>
+    </header>
+    <div class="main">
+        <div>
+            <a href="cursoemvideo.html" target="" rel="next"><img src="img/cursoemvideo.png.png" width="450" height="155" alt="Canal Curso em Vídeo"></a>
+        </div>
+        <div>
+            <a href="cursorapido.html" target="" rel="next"><img style="padding: auto;" width="450" height="155" src="img/cursorapido.png.png" alt="Canal Curso Rápido"></a>
+        </div>
+        <div>
+            <a href="certificado.html" target="" rel="next"><img width="450" height="155" src="img/certiifcado.png.png" alt="Canal Certificado Cursos Online"></a>
+        </div>
+        <div>
+            <a href="aulas.html" target="" rel="next"><img width="450" height="155" src="img/aulasdeinformatica.png.png" alt="Canal Aulas de Informatica"></a>
+        </div>
+        <div>
+            <a href="dicionario.html" target="" rel="next"><img width="450" height="155" src="img/dicionari.png.png" alt="Canal Dicionário de Informatica"></a>
+        </div>
+        <div>
+            <a href="mateus.html" target="" rel="next"><img width="450" height="155" src="img/mateuscp.png.png" alt="Canal Mateus CP"></a>
+        </div>
     </div>
 </body>
 <footer>
-    
+    <footer style="font-size: 15px;">Site criado pelo <strong>Grupo 6</strong> para o Projeto de Extensão Universitária da Universidade Metodista de São Paulo</footer>
 </footer>
 </html>
